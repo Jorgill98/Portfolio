@@ -1,0 +1,57 @@
+.mainContainer{
+    margin: 0px 70px 0px 70px
+}
+.P{
+    text-align: right;
+}
+#name{ 
+   background-color: aqua;
+   margin: 0px 0px 15px;
+   text-align: right;
+   width: 150px;
+   
+   
+}
+li{
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+    color: aqua;
+    border-bottom-style: solid;
+    
+}
+ul{
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: darkgray;
+}
+  body{
+    margin: 0px;
+  }
+  #image1{
+    max-width: 100%;
+    margin-right: 0%;
+
+
+}
+header { border-bottom: 1px}
+header > h1 { display: inline-block; }
+header span { margin-left: 100px;
+padding: 25px;
+}
+
+.flex-container2{display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;}
+    .flex-container2 > div {
+        background-color: #f1f1f1;
+        width: 50000px;
+        margin: 100px;
+        text-align: left;
+        line-height:100px;
+        font-size: 30px;}
